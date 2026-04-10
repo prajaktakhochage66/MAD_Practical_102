@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:src="@drawable/praju"
+        android:layout_marginBottom="30dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Prajakta Prakash Khochage"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+    <TextView
+        android:id="@+id/Class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class: TY CSE B "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+
+    <TextView
+        android:id="@+id/Roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll No: 102"
+        android:textSize="20dp"
+
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: prajaktakhochage@gmail.com"
+        android:textSize="20dp"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:id="@+id/Hobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobbies: Reading, Coding, Traveling"
+        android:textSize="20dp"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:id="@+id/Skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skills: Java, Android, HTML, SQL"
+        android:textSize="20dp"
+        android:layout_marginTop="6dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Back To Login" />
+
+</LinearLayout>

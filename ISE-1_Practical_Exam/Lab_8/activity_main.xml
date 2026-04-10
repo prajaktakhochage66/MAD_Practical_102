@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <!-- Lab Title -->
+    <TextView
+        android:id="@+id/labTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Python Programming Lab"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Lab Image -->
+    <ImageView
+        android:id="@+id/labImage"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Lab Description -->
+    <TextView
+        android:id="@+id/labDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="The Python Programming lab is used to perform practicals of Compiler Construction, BDA, Operating System, Database Engineering and Compiler Construction. The software's that are installed includes Ubuntu OS, PyCharm editor, Atom editor, Brackets editor, GCC, g++ and Open JDK packages."
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+
+</LinearLayout>
+
